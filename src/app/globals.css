@@ -1,0 +1,141 @@
+body{
+  background-image: url(./images/bg-website.png);
+  color: #f7f7f7;
+  background-position:center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+.create-member-form {
+    max-width: 600px; /* Reduce the width of the form */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light background for contrast */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.create-member-form h2 {
+    color: #000; /* Black color for the heading */
+    margin-bottom: 20px;
+}
+
+.create-member-form .form-group {
+    margin-bottom: 15px;
+}
+
+.create-member-form .form-label {
+    color: #000; /* Black color for labels */
+}
+
+.create-member-form .required-badge {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.create-member-form .form-control {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.create-member-form .form-control:focus {
+    border-color: #000; /* Black border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1); /* Subtle shadow on focus */
+}
+
+.create-member-form .btn-primary {
+    background-color: #ffc107; /* Yellow background for the button */
+    border: none;
+    color: #000; /* Black text for the button */
+}
+
+.create-member-form .btn-primary:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif; /* Change to your desired font family */
+  width: 400px;
+  margin: 20px auto;
+}
+
+.pname{
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000013;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+}
+
+.details-container {
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+
+.buttons-container .btn {
+  margin: 0 5px;
+}
+
+
+.seperator{
+  width: 70%;
+  display: flex;
+  background-color: #e0a800;
+  border-radius: 25px;
+  box-shadow: 5px 5px solid grey;
+  height: 55px;
+  margin-top: 25px;
+  margin-left: 12.5%;
+  margin-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+
+}
+
+.seperator > h2{
+  font-weight: bolder;
+}
+
+

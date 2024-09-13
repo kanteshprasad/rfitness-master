@@ -1,0 +1,59 @@
+/* Navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .brandName {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .navLink:hover {
+    background-color: rgba(255, 255, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .logoutButton {
+    background: none;
+    border: none;
+    color: yellow;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .logoutButton:hover {
+    color: rgba(255, 255, 0, 0.7);
+  }
+  
